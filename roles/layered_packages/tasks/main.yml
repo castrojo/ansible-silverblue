@@ -14,3 +14,9 @@
     - net-tools
     - python3-psutil
     - vim
+    - gnome-shell-extension-appindicator
+    - gnome-shell-extension-sound-output-device-chooser
+    - gnome-shell-extension-frippery-move-clock
+    - gnome-shell-extension-dash-to-dock
+    - gnome-shell-extension-gsconnect
+    - libratbag-ratbagd

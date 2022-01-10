@@ -17,10 +17,28 @@
     method: user
     remote: "{{ item.remote }}"
   loop:
-    - { remote: 'flathub', package: 'org.glimpse_editor.Glimpse' }
     - { remote: 'flathub', package: 'org.gnome.eog' }
     - { remote: 'flathub', package: 'org.gnome.Firmware' }    
-    - { remote: 'flathub', package: 'org.gnome.Podcasts' }
-    - { remote: 'flathub', package: 'org.gnome.Totem' }
-    - { remote: 'flathub', package: 'org.remmina.Remmina' }
-    - { remote: 'flathub', package: 'us.zoom.Zoom' }
+    - { remote: 'flathub', package: 'org.gnome.Dejadup' }
+    - { remote: 'flathub', package: 'org.gnome.Extensions' }
+    - { remote: 'flathub', package: 'org.gnome.Rhythmbox3' }
+    - { remote: 'flathub', package: 'org.gnome.Shotwell' }
+    - { remote: 'flathub', package: 'org.gustavoperedo.FontDownloader' }
+    - { remote: 'flathub', package: 'org.libreoffice.LibreOffice' }
+    - { remote: 'flathub', package: 'org.mozilla.firefox' }
+    - { remote: 'flathub', package: 'org.mozilla.Thunderbird' }
+    - { remote: 'flathub', package: 'org.freedesktop.Platform.ffmpeg-full/x86_64/21.08' }
+    - { remote: 'flathub', package: 'com.github.tchx84.Flatseal' }
+    - { remote: 'flathub', package: 'org.flameshot.Flameshot' }
+    - { remote: 'flathub', package: 'org.standardnotes.standardnotes' }
+    - { remote: 'flathub', package: 'com.valvesoftware.Steam' }
+    - { remote: 'flathub', package: 'com.valvesoftware.Steam.Utility.gamescope' }
+    - { remote: 'flathub', package: 'com.github.PintaProject.Pinta' }
+    - { remote: 'flathub', package: 'com.spotify.Client' }
+    - { remote: 'flathub', package: 'io.mpv.Mpv' }
+    - { remote: 'flathub', package: 'org.fedoraproject.MediaWriter' }
+    - { remote: 'flathub', package: 'org.freedesktop.Platform.VulkanLayer.MangoHud' }
+    - { remote: 'flathub', package: 'org.signal.Signal' }
+    - { remote: 'flathub', package: 'com.discordapp.Discord' }
+
+
