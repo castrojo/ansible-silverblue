@@ -2,10 +2,6 @@
 # vars file for settings
 
 dconf_settings:
----
-# vars file for settings
-
-dconf_settings:
 - key: { '/org/gnome/shell/disable-extension-version-validation', value: "true" } # yolo
 - key: { '/org/gnome/shell/disable-user-extensions', value: "false" }
 - key: { '/org/gnome/shell/favorite-apps', value: "['org.mozilla.firefox.desktop', 'org.mozilla.Thunderbird.desktop', 'org.gnome.Nautilus.desktop', 'org.gnome.Rhythmbox3.desktop', 'org.libreoffice.LibreOffice.writer.desktop', 'org.gnome.Software.desktop', 'yelp.desktop']" }
